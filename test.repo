@@ -1,0 +1,6 @@
+[RHEL5 - Server - DVD]
+name = Red Hat Enterprise Linux $releasever - $basearch(DVD)
+baseurl = http://<RepoIP>/repo/
+enabled = 1
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
